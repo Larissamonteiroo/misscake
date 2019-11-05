@@ -1,0 +1,174 @@
+body,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.2em;
+  font-family: sans-serif;
+}
+
+body {
+  margin-bottom: 100px;
+  background-image: linear-gradient(#f4d4cc, #fdfdfd);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  padding: 10px 0;
+}
+
+header {
+  background: #ffb5d9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.menu-nav {
+  max-width: 100
+  color: #000;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 20px;
+}
+
+.menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+  flex: 1 1 200px;
+}
+
+.mn-nav ul {
+  text-align: center;
+}
+
+.menu-nav li a {
+  display: flex;
+  padding: 10px;
+}
+
+.menu-nav ul img {
+  max-width: 100%;
+}
+
+
+/*SideBar*/
+.side-bar {
+  float: right;
+}
+
+.side-bar nav {
+  width: 300px;
+  position: absolute;
+  visibility: hidden;
+  left: 1033px;
+}
+
+.bar {
+  background: #ffb5d9;
+  text-decoration: none;
+  color: #000;
+  display: block;
+  padding: 20px 5px;
+  width: 300px;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+}
+
+.bar:hover {
+  background: #ffe781;
+  color: #000;
+}
+
+input[type="checkbox"]{
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ nav {
+  visibility: visible;
+}
+
+label {
+  background: #ffb5d9;
+  padding: 11px;
+  position: absolute;
+  left: 1266px;
+  z-index: 1;
+}
+
+/* Destaques */
+
+.tittle {
+  max-width: 85%;
+  height: 48px;
+  background: #ffe781;
+  margin: 0 auto;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.mini-conteiner {
+  max-width: 82%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px 20px;
+  background-image: linear-gradient(#ffb5d9, #fde2f1);
+}
+
+.conteiner-img img {
+  max-width: 100%;
+}
+
+.conteiner-img {
+  flex: 1 1 178px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* Login */
+
+.login-tt {
+  font-family: "Pacifico";
+  font-size: 30px;
+  margin: 150px auto;
+  width: 580px;
+  height: 48px;
+  background: #ffe781;
+  margin: 0 auto;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.login-tt h1 {
+  text-align: center;
+  
+}
+
+.login-conteiner {
+  width: 540px;
+  height: 470px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-image: linear-gradient(#ffb5d9, #fde2f1);
+}
