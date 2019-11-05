@@ -78,7 +78,7 @@ header {
   width: 300px;
   position: absolute;
   visibility: hidden;
-  left: 1033px;
+  left: 1040px;
 }
 
 .bar {
@@ -109,7 +109,7 @@ label {
   background: #ffb5d9;
   padding: 11px;
   position: absolute;
-  left: 1266px;
+  left: 1272px;
   z-index: 1;
 }
 
