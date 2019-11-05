@@ -41,7 +41,7 @@ header {
 }
 
 .menu-nav {
-  max-width: 100
+  max-width: 100;
   color: #000;
   display: flex;
   flex-wrap: wrap;
@@ -78,7 +78,7 @@ header {
   width: 300px;
   position: absolute;
   visibility: hidden;
-  left: 1040px;
+  left: 1039px;
 }
 
 .bar {
